@@ -42,6 +42,11 @@ p {
    min-height: 1px;
    margin:0 2% 20px;
 }
+.offset {
+   position:relative;
+   top: 20px;
+}
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -267,6 +272,7 @@ p {
    padding:30px;
    width:auto;
    margin:0;
+
  }
  .testimonials blockquote:after {
    top: 100%;
