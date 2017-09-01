@@ -26,7 +26,8 @@ p {
    padding-left: 15px;
    padding-right: 15px;
    position: relative;
- }
+  }
+
  .container:before,
  .container:after {
    content: " ";
@@ -45,16 +46,16 @@ p {
 .offset {
    position:relative;
    top: 20px;
-}
 
+}
 @media (min-width: 768px) {
    .container {
      width: 750px;
    }
  }
- @media (min-width: 992px) {
+ @media (min-width: 300px) {
    .container {
-     width: 970px;
+     width: 100%;
    }
    .one-half {
      width:46%;
@@ -71,6 +72,17 @@ p {
      width: 1170px;
    }
  }
+ @media only screen and (max-width: 800px) {
+    .one-third {
+        display: block;
+        width: 50%;
+        margin-left: 110px;
+        margin-right: 10px;
+      }
+     .one-fourth {
+        width: 45%;
+      }
+    }
 
  /* HEADER */
  header {
@@ -92,7 +104,7 @@ p {
    display: inline-block;
    margin:0 15px;
  }
- header nav ul > li.btn-outline {
+ header nav ul > li-outline {
    padding:10px 15px;
    border:2px solid #FFFFFF;
    border-radius: 4px;
@@ -128,7 +140,9 @@ p {
    margin:3em auto 0;
    width: 100%;
  }
+
  /* BUTTONS */
+
  .btn {
    border-radius: 4px;
    color:#FFFFFF;
@@ -139,6 +153,7 @@ p {
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
  }
+ 
  @media (min-width: 992px) {
   header .hero h1 {
     font-size: 48px;
@@ -150,8 +165,10 @@ p {
   header .hero img {
     width: 100%;
     }
+  }
 
     /* BENEFITS */
+    
     .benefits {
       text-align: center;
       display:block;
@@ -159,8 +176,8 @@ p {
     }
     .benefits ul {
       margin: 0 auto;
-      padding:4em 0;
-    }
+      padding:4em 0; 
+  }
     .benefits ul li {
       list-style-type: none;
       display: inline-block;
@@ -170,11 +187,11 @@ p {
       font-size:60px;
       margin:8;
       vertical-align: middle;
-
     }
     .benefits h2 {
       color:#3498DB;
     }
+    
     /* PRICING */
     .pricing {
       background: #34495E url("../images/background.png"); top center no-repeat
@@ -183,9 +200,32 @@ p {
    text-align: center;
    padding:43m 0;
     }
+    
     .pricing h2, .pricing p {
       color:#FFFFFF;
     }
+    @media (min-width: 320px) {
+    .pricing p {
+      display: inline-block;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+    .rwd-line {
+      display:block;
+    }
+    @media only screen and (min-width: 900px) {
+    .rwd-line {
+      display: inline;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+      .rwd-line {
+        display: none;
+    }
+  }
+
     .pricing ul {
       margin:0 auto;
       padding:2em 0;
@@ -219,7 +259,7 @@ p {
    padding:10px 0;
  }
  .box h4 {
-   font-size:50px;
+   font-size:300%;
    font-weight: normal;
    margin:40px 0 10px;
    color:#3498DB;
@@ -236,7 +276,7 @@ p {
    vertical-align: middle;
  }
  .box ul li {
-   font-size:18px;
+   font-size:110%;
    margin-bottom:20px;
    font-weight: 100;
  }
@@ -246,6 +286,7 @@ p {
    left:20px;
    right:20px;
  }
+}
  .small {
    font-size: 12px;
    color: #FEFEFE;
@@ -302,7 +343,8 @@ p {
    font-size:13px;
    margin-top: 30px;
  }
- /* read out blog */
+
+ /* read our blog */
  .blog {
   padding:4em 0;
    text-align: center;
