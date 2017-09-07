@@ -100,8 +100,6 @@ p {
    margin:0;
    -webkit-margin-before: 0 !important;
    -webkit-padding-start: 0 !important;
- }
- @media (min-width:320px) {
 
  }
  header nav ul > li {
@@ -512,6 +510,13 @@ p {
  .left-nav .items ul li {
    list-style-type: none;
    margin-bottom: 15px;
+ }
+ .left-nav .items ul li.active a {
+  font-weight: 500;
+  color: #34495E;
+  background-color: #E9EFF2;
+  background-size: 20px 30px;
+
  }
  .left-nav .items ul li a {
    color:#FFFFFF;
