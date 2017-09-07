@@ -513,8 +513,6 @@ p {
  }
  .left-nav .items ul li.active a {
   font-weight: 500;
-  color: #34495E;
-  background-color: #E9EFF2;
   background-size: 20px 30px;
 
  }
