@@ -611,14 +611,14 @@ p {
    font-weight: 400;
    margin:0 0 0 10px;
  }
- .left-nav .settings a {
+ .left-nav .settings .settings1 a {
    color:#FFFFFF;
    text-decoration: none;
    text-align: right;
    float: right;
    margin-right:10px;
    margin-top:8px;
- }
+}
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
