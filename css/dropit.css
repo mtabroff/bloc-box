@@ -57,6 +57,7 @@
  .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
   text-decoration: none;
+  text-alight: right;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
  }

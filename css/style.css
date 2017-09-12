@@ -629,7 +629,7 @@ p {
 .left-nav .settings .dropit .dropit-open .dropit-submenu {
     bottom: 100%;
     top: inherit;
-    min-width: 140px;
+    min-width: 143px;
     position: absolute;
     list-style: none;
 
@@ -649,12 +649,12 @@ p {
 
 }
 .left-nav .settings .dropit .dropit-open .dropit-submenu li {
-  display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  display: inline-flex;
  }
  .left-nav .settings .dropit .dropit-open .dropit-submenu li:last-child {
   margin-bottom: 0px;
-  text-align: left
  }
  .left-nav .settings .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
