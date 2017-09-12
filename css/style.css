@@ -56,7 +56,7 @@ p {
  }
 @media (min-width: 320px) {
   .container {
-    width: 312px;
+    width: 90%;
   }
 }
 @media (min-width: 768px) {
